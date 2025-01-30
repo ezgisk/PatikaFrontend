@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kullanıcı Bilgileri Formu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h2 {
+            text-align: center; /* Başlığı ortalamak için */
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: inline-block;
+            width: 150px;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        input, select, textarea {
+            width: calc(100% - 160px);
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+
+        .form-row {
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .form-row label {
+            width: 150px;
+            text-align: left;
+        }
+
+        .form-row input, .form-row select, .form-row textarea {
+            width: calc(100% - 160px);
+        }
+
+        .form-row input[type="radio"] {
+            width: auto;
+        }
+
+        .form-row .radio-label {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .form-row input[type="submit"] {
+            width: auto;
+            margin-left: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Kullanıcı Bilgileri Formu</h2>
+    <form action="#" method="post">
+        <!-- Ad ve Soyad -->
+        <div class="form-row">
+            <label for="ad">Ad:</label>
+            <input type="text" id="ad" name="ad" required>
+        </div>
+
+        <div class="form-row">
+            <label for="soyad">Soyad:</label>
+            <input type="text" id="soyad" name="soyad" required>
+        </div>
+
+        <!-- E-posta -->
+        <div class="form-row">
+            <label for="email">E-posta:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <!-- Parola -->
+        <div class="form-row">
+            <label for="parola">Parola:</label>
+            <input type="password" id="parola" name="parola" required>
+        </div>
+
+        <!-- Cinsiyet -->
+        <div class="form-row">
+            <label>Cinsiyet:</label>
+            <label class="radio-label">
+                <input type="radio" id="erkek" name="cinsiyet" value="erkek"> Erkek
+            </label>
+            <label class="radio-label">
+                <input type="radio" id="kadin" name="cinsiyet" value="kadin"> Kadın
+            </label>
+        </div>
+
+        <!-- Favori Meyve -->
+        <div class="form-row">
+            <label for="meyve">Favori Meyveniz:</label>
+            <select id="meyve" name="meyve" required>
+                <option value="elma">Elma</option>
+                <option value="muz">Muz</option>
+                <option value="cilek">Çilek</option>
+                <option value="nar">Nar</option>
+            </select>
+        </div>
+
+        <!-- Mesaj -->
+        <div class="form-row">
+            <label for="mesaj">Mesaj:</label>
+            <textarea id="mesaj" name="mesaj" rows="4" cols="50"></textarea>
+        </div>
+
+        <!-- Gönder Butonu -->
+        <div class="form-row">
+            <input type="submit" value="Gönder">
+        </div>
+    </form>
+</body>
+</html>
