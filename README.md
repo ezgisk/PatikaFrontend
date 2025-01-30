@@ -31,3 +31,16 @@ The form includes the following elements:
 - **Message Area**: A text area where users can write a message.
 - **Submit Button**: A button to submit the form.
 
+# Week - My First Web Page
+
+This project is a simple personal webpage created using HTML and CSS. The webpage introduces myself and showcases my resume, education, work experience, skills, and contact information.
+
+## Features
+
+- **Resume Section**: A short introduction paragraph about yourself, including your passion for web development, software engineering, and technology.
+- **Education Section**: A chronological list of your educational background, including university and high school details.
+- **Work Experience Section**: A list of your work experience in reverse chronological order, showing your current and past positions.
+- **Skills Section**: A list of your technical skills, such as HTML, CSS, JavaScript, React, Node.js, and database management.
+- **Contact Section**: Your email, phone number, and a link to your LinkedIn profile.
+- **Photo Section**: A circular image of yourself to personalize the webpage.
+- **Map Section**: An embedded Google Map iframe showing your location (customizable to your actual location).
