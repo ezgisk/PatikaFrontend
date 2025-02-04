@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakkında - Rehber Web Sitesi</title>
+    <style>
+        /* Temel Stil */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #c4a8a8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Container Sınıfı */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+
+        header nav ul {
+            list-style: none;
+            text-align: right;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-left: 30px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
+        header nav ul li a:hover {
+            color: #ff9800;
+        }
+
+        /* Ana Başlık */
+        h2 {
+            font-size: 36px;
+            margin-top: 30px;
+            text-align: center;
+            color: #333;
+        }
+
+        /* Hakkında Sayfası İçeriği */
+        main {
+            padding: 50px 0;
+            background-color: white;
+        }
+
+        main p {
+            font-size: 20px;
+            margin: 20px 0;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h3 {
+            font-size: 28px;
+            color: #333;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        ol {
+            font-size: 18px;
+            margin: 30px auto;
+            max-width: 800px;
+            list-style-type: decimal;
+        }
+
+        ol li {
+            margin-bottom: 15px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header ve Navigasyon -->
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="Week1-RehberWebSitesi-Anasayfa">Ana Sayfa</a></li>
+                    <li><a href="Week1-RehberWebSitesi-Hakkinda">Hakkında</a></li>
+                    <li><a href="Week1-RehberWebSitesi-Servisler">Servisler</a></li>
+                    <li><a href="Week1-RehberWebSitesi-Iletisim">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Ana İçerik -->
+    <main>
+        <h2>Hakkında</h2>
+        <p>Rehber Web Sitesi, 2025 yılında kurulmuş olup, çeşitli hizmetleri kullanıcılarına sunmaktadır. İnteraktif rehberlik ve bilgi paylaşımı alanında en son teknolojiler kullanılarak hizmet verilmektedir. Kullanıcılar, aradıkları hizmetleri hızlı bir şekilde bulabilir ve gereksinimlerine uygun çözümler keşfedebilirler.</p>
+
+        <h3>Önemli Olaylar:</h3>
+        <ol>
+            <li>2025: Web sitesi kuruldu ve ilk hizmetler çevrimiçi hale geldi.</li>
+            <li>2026: Kullanıcı deneyimini artırmak için yeni özellikler eklendi.</li>
+            <li>2027: Yılın sonunda yeni bir platform duyuruldu ve kullanıcı sayısı hızla arttı.</li>
+        </ol>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Rehber Web Sitesi | Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

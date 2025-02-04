@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servisler - Rehber Web Sitesi</title>
+    <style>
+        /* Temel Stil */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            padding-bottom: 60px; /* Footer'ın altta görünmesi için yeterli boşluk bırakmak */
+        }
+
+        /* Container Sınıfı */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+
+        header nav ul {
+            list-style: none;
+            text-align: right;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-left: 30px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
+        header nav ul li a:hover {
+            color: #ff9800;
+        }
+
+        /* Başlıklar */
+        h2 {
+            font-size: 36px;
+            text-align: center;
+            color: #333;
+            margin-top: 40px;
+        }
+
+        h3 {
+            font-size: 28px;
+            color: #333;
+            margin: 20px 0;
+        }
+
+        /* Hizmetler Listesi */
+        main {
+            padding: 50px 0;
+            background-color: white;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            background-color: #f9f9f9;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        ul li h3 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        ul li p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        /* Footer Sabitleme */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header ve Navigasyon -->
+    <header>
+        <div class="container">
+            <h1 class="logo"><a href="index.html" style="color: white; text-decoration: none;">Rehber Web Sitesi</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="hakkinda.html">Hakkında</a></li>
+                    <li><a href="servisler.html">Servisler</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Ana İçerik -->
+    <main>
+        <h2>Sunulan Hizmetler</h2>
+        
+        <ul>
+            <li>
+                <h3>Hizmet 1: Danışmanlık</h3>
+                <p>Uzman danışmanlarımız, iş ve kişisel gelişim konularında size rehberlik edebilir. Hedeflerinize ulaşmanız için birlikte çalışabiliriz.</p>
+            </li>
+            <li>
+                <h3>Hizmet 2: Eğitim</h3>
+                <p>Çeşitli konularda online eğitimler sunuyoruz. İş yaşamından kişisel gelişime kadar birçok konuda bilgi edinebilirsiniz.</p>
+            </li>
+            <li>
+                <h3>Hizmet 3: Destek</h3>
+                <p>İhtiyacınız olan her konuda 7/24 destek sunuyoruz. Soru ve sorunlarınızı hızlıca çözmek için buradayız.</p>
+            </li>
+        </ul>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Rehber Web Sitesi | Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

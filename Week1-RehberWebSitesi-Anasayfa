@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rehber Web Sitesi</title>
+    <style>
+        /* Temel Stil */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #c4a8a8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Container Sınıfı */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            color: white; /* Beyaz yazı rengi */
+        }
+
+        header nav ul {
+            list-style: none;
+            text-align: right;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-left: 30px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
+        header nav ul li a:hover {
+            color: #ff9800;
+        }
+
+        /* Hero Bölümü */
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+
+        .hero .btn {
+            background-color: #ff9800;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .hero .btn:hover {
+            background-color: #e68900;
+        }
+
+        /* Tanıtım Görseli */
+        .intro {
+            margin-top: -50px;
+            text-align: center;
+        }
+
+        .intro .intro-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Önemli Noktalar */
+        .highlights {
+            background-color: #fff;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .highlights h2 {
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        .highlights ul {
+            list-style-type: none;
+            font-size: 18px;
+        }
+
+        .highlights ul li {
+            margin-bottom: 15px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header ve Navigasyon -->
+    <header>
+        <div class="container">
+            
+            <nav>
+                <ul>
+                    <li><a href="Week1-RehberWebSitesi-Anasayfa">Ana Sayfa</a></li>
+                    <li><a href="Week1-RehberWebSitesi-Hakkinda">Hakkında</a></li>
+                    <li><a href="Week1-RehberWebSitesi-Servisler">Servisler</a></li>
+                    <li><a href="Week1-RehberWebSitesi-Iletisim">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Ana İçerik -->
+    <main>
+        <!-- Hero Bölümü -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Rehber Web Sitesine Hoşgeldiniz!</h1>
+                <p>Hizmetler, rehberler ve faydalı bilgiler için doğru yerdesiniz. Keşfetmeye başlayın.</p>
+                <a href="Week1-RehberWebSitesi-Servisler" class="btn">Hizmetlerimizi Keşfedin</a>
+            </div>
+        </section>
+
+        <!-- Tanıtım Görseli -->
+        <section class="intro">
+            <div class="container">
+                <img src="img/download.jpeg" alt="Rehber web sitesi görseli" class="intro-image">
+            </div>
+        </section>
+
+        <!-- Önemli Noktalar -->
+        <section class="highlights">
+            <div class="container">
+                <h2>Önemli Noktalar:</h2>
+                <ul>
+                    <li>Hizmetlerimizi keşfedin ve ihtiyaçlarınıza uygun seçenekleri bulun.</li>
+                    <li>İletişim bilgilerimize kolayca ulaşın ve bizimle bağlantı kurun.</li>
+                    <li>Hakkında sayfamızda şirketimiz hakkında daha fazla bilgi edinin.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Rehber Web Sitesi | Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
