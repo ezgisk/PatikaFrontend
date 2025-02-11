@@ -1,0 +1,119 @@
+/* Genel Stil */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #ddd;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  /* Son Gönderiler */
+  .latest-posts h2 {
+    color: #333;
+  }
+  
+  /* Son Gönderiler için Flexbox düzeni */
+  .latest-posts {
+    display: flex;
+    justify-content: space-between; /* Öğeler arasındaki boşluğu eşit dağıtır */
+    gap: 20px; /* Öğeler arasında 20px boşluk bırakır */
+  }
+  
+  .latest-posts article {
+    margin-top: 7%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 35%; /* Her bir article öğesinin genişliğini ayarlayın */
+    text-align: center;
+  }
+  
+  .latest-posts img {
+    width: 100%; /* Görselin genişliği article'ın genişliğine uyar */
+    height: auto; /* Görselin oranlarını korur */
+  }
+  
+  
+  .latest-posts article h3 a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .latest-posts article h3 a:hover {
+    color: #007BFF;
+  }
+  
+  .latest-posts article p {
+    color: #666;
+  }
+  .posts h2{
+    color: #333;
+  }
+  .posts article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .posts article h3 a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .posts article h3 a:hover {
+    color: #007BFF;
+  }
+  
+  .posts article p {
+    color: #666;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
