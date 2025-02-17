@@ -15,7 +15,7 @@ This project creates a simple HTML table to display student information. The tab
 2. Open the file in your browser to view the class table.
 
 
-# Week 2- Kullanıcı Bilgileri Formu
+# Week 1- Kullanıcı Bilgileri Formu
 
 This project presents a **User Information Form** created using HTML and CSS. Users can input their first name, last name, email, password, gender, favorite fruit, and a message.
 
@@ -31,7 +31,7 @@ The form includes the following elements:
 - **Message Area**: A text area where users can write a message.
 - **Submit Button**: A button to submit the form.
 
-# Week - My First Web Page
+# Week 1- My First Web Page
 
 This project is a simple personal webpage created using HTML and CSS. The webpage introduces myself and showcases my resume, education, work experience, skills, and contact information.
 
@@ -44,3 +44,36 @@ This project is a simple personal webpage created using HTML and CSS. The webpag
 - **Contact Section**: Your email, phone number, and a link to your LinkedIn profile.
 - **Photo Section**: A circular image of yourself to personalize the webpage.
 - **Map Section**: An embedded Google Map iframe showing your location (customizable to your actual location).
+
+# Week 2 - Blog Site
+
+This project aims to create a simple blog site using HTML and CSS. The blog site includes a homepage and a blog post page.
+
+## Project Description
+
+The Blog Site offers a platform where users can view blog posts and click on each post to read its details. In this project, basic web pages are created using HTML and CSS.
+
+## Technical Requirements
+
+- HTML5
+- CSS3
+
+## File Structure
+
+The project has the following file structure:
+- **index.html** - Homepage
+- **post.html** - Blog post page
+- **styles.css** - Style file
+
+## Usage
+
+- **Homepage (index.html)**: Displays summaries of blog posts.
+- **Blog Post Page (post.html)**: Displays the detailed content of a blog post.
+
+## Visual Requirements
+
+- Background: `#f4f4f4`
+- Header and Footer: `#333` (dark gray)
+- Text: `#333` (headings) and `#666` (paragraphs)
+- Font: `Arial`, `sans-serif`
+
