@@ -77,3 +77,18 @@ The project has the following file structure:
 - Text: `#333` (headings) and `#666` (paragraphs)
 - Font: `Arial`, `sans-serif`
 
+# Virginia Woolf - A Tribute to the Visionary Author
+This project is a tribute website dedicated to the famous English author Virginia Woolf. The website showcases Woolf's biography, her works, famous quotes, and photographs. It also features a timeline highlighting key events in her life.
+
+## Content
+- Home: Introduction to Virginia Woolf and her quotes.
+- Biography: Information about Woolf's life and literary career.
+- Books: A list of Woolf's major works along with their publication years.
+- Quotes: Famous quotes by Virginia Woolf.
+- Gallery: A visual gallery featuring various photographs of Virginia Woolf.
+- Timeline: A chronological timeline of important events in Woolf's life.
+## Usage
+- This project is designed to work in all modern web browsers.
+- Open the index.html file in your browser to view the website.
+- Make sure the relevant image files and the styles.css file are placed correctly.
+
