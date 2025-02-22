@@ -1,0 +1,90 @@
+/* Navbar'ı sabitlemek */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Diğer içeriklerin üzerine çıkmasını sağlar */
+  height: 54px;
+  background-color: white;
+}
+
+/* Body'ye padding ekleyerek içerik ile navbar arasına mesafe eklemek */
+body {
+  padding-top: 80px; /* Navbar'ın yüksekliği kadar mesafe ekleyin */
+}
+
+/* Logo için soldan 192px margin */
+.navbar .logo {
+  margin-left: 192px;
+}
+
+/* Arama kısmını d-flex ile ortalamak ve soldan margin eklemek */
+.navbar .collapse.navbar-collapse .form-inline {
+  display: flex;
+  justify-content: center; /* Ortalamak için */
+  margin-left: 5px; /* Soldan 5 birim margin eklemek */
+  width: 100%;
+}
+/*Sağ üstte yer alan menü kısmına soldan 5 birim üstten 2 birim margin verin.*/
+.navbar-nav{
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+/* Placeholder metni ortalamak, renk ve font stilini düzenlemek */
+input::placeholder {
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  background-image: url('/Week-3/InstagramClone/Assets/search-solid.svg') ; /* Arama simgesinin yolunu belirtin */
+  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+  background-position: left center; /* Resmi solda ve ortada konumlandırır */
+  padding-left: 25px; /* Placeholder metninin sağında simge için alan bırakır */
+}
+
+/* Arama inputunun stilini belirlemek */
+input.empty {
+  font-family: Arial, FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  background-color: #FAFAFA;
+  height: 28px;
+  width: 216px;
+}
+.middlearea {
+  max-height: 200px !important;
+}
+
+.storyphoto {
+  width: 40px;             /* Resmin boyutunu belirler */
+  height: 40px;
+  border-radius: 50%;      /* Yuvarlak hale getirir */
+  border: 2px solid rgb(238, 39, 82); /* Kenarlık rengi */
+  margin-bottom: 8px;      /* Resim ve isim arasında boşluk bırakır */
+  justify-content:center;
+}
+
+.storytext {
+  font-size: 11px;            /* Yazının font boyutunu ayarlar */
+  color: black;               /* Yazı rengini belirler */
+  font-weight: bold;          /* Yazıyı kalın yapar */
+  text-align: center;         /* Yazıyı ortalar */
+  margin-top: 5px;            /* Resim ile yazı arasına boşluk ekler */
+  display: block;             /* Yazıyı blok seviyesinde gösterir */
+}
+.card-body {
+  display: flex;               /* Flexbox düzenini etkinleştirir */
+  flex-direction: row;         /* Öğeleri yatay olarak sıralar */
+  justify-content: flex-start; /* Öğeleri sola hizalar */
+  align-items: center;         /* Dikeyde ortalar */
+  flex-wrap: nowrap;           /* Öğelerin alt satıra geçmesini engeller */
+  gap: 10px;                   /* Resimler arasında boşluk bırakır */
+  overflow: hidden;            /* Taşmayı engeller */
+  padding: 10px;               /* Kartın içine biraz boşluk bırakır */
+}
+
+.fas.fa-ellipsis-h {
+  margin-left: auto; /* Simgeyi sağa yaslar */
+}
