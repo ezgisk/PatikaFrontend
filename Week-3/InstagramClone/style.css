@@ -74,7 +74,7 @@ input.empty {
   margin-top: 5px;            /* Resim ile yazı arasına boşluk ekler */
   display: block;             /* Yazıyı blok seviyesinde gösterir */
 }
-.card-body {
+.card-body-story{
   display: flex;               /* Flexbox düzenini etkinleştirir */
   flex-direction: row;         /* Öğeleri yatay olarak sıralar */
   justify-content: flex-start; /* Öğeleri sola hizalar */
@@ -82,9 +82,53 @@ input.empty {
   flex-wrap: nowrap;           /* Öğelerin alt satıra geçmesini engeller */
   gap: 10px;                   /* Resimler arasında boşluk bırakır */
   overflow: hidden;            /* Taşmayı engeller */
-  padding: 10px;               /* Kartın içine biraz boşluk bırakır */
+  padding: 10px;  
+}
+.card-header{
+  background-color: white;
+}
+.card-footer{
+  background-color: white;
+}
+/* Sağ panelin sabitlenmesi */
+.stickysidebar {
+  position: fixed;
+  top: 0; /* Sayfa kaydırıldıkça üst kısmında kalır */
+  z-index: 100; /* Diğer öğelerin üstünde olması için */
 }
 
-.fas.fa-ellipsis-h {
-  margin-left: auto; /* Simgeyi sağa yaslar */
+/* Right panelin stilini ayarlamak */
+.rightpanel {
+  background-color: white; /* Arka plan rengi beyaz */
+  border: none; /* Kenarlıkları kaldırır */
+  padding: 10px; /* İçerik ile kenar arasına boşluk bırakır */
+}
+
+/* Sağ panelin sabitlenmesi ve kaydırıldıkça yukarıda kalması */
+.stickysidebar {
+  position: -webkit-sticky; /* Safari için sticky */
+  position: sticky;
+  top: 10px; /* Sayfa kaydırıldıkça 10px mesafede kalacak */
+  z-index: 1000; /* Panelin üstte görünmesini sağlar */
+  max-height: 90vh; /* Sayfanın kaydırılabilir kısmında panelin boyutunu sınırlamak için */
+  overflow-y: auto; /* İçerik uzun ise kaydırılabilir yapar */
+}
+
+/* Right panelin stilini ayarlamak */
+.rightpanel {
+  background-color: white;
+  border: none;
+  padding: 15px;
+  margin-top: 20px;
+  height: auto; 
+}
+
+/* Linkler için stil */
+.rightpanellinks {
+  color: #008CBA; /* Link rengi */
+  text-decoration: none; /* Alt çizgiyi kaldırır */
+}
+
+.rightpanellinks:hover {
+  text-decoration: underline; /* Hover durumunda alt çizgi ekler */
 }
