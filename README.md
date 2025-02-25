@@ -91,4 +91,35 @@ This project is a tribute website dedicated to the famous English author Virgini
 - This project is designed to work in all modern web browsers.
 - Open the index.html file in your browser to view the website.
 - Make sure the relevant image files and the styles.css file are placed correctly.
+# Week 3 - Blog Site
+
+This is a simple blog site created using HTML, CSS, and Bootstrap, designed to showcase blog posts using cards and a grid system. The homepage features a jumbotron to introduce the site, and blog posts are displayed in a clean and responsive layout.
+
+## Features
+
+- **Navigation Menu**:
+    - A dark-themed navigation menu with links to "Home" and "Blog Post" pages.
+    - The background of the navigation menu is customizable.
+
+- **Jumbotron**:
+    - A section at the top of the homepage that introduces the blog site and provides a brief overview of its content.
+
+- **Blog Cards**:
+    - Blog posts are displayed in **Bootstrap card components**.
+    - Each card contains an image, a title, a short description, and a link to the full blog post.
+    - The cards are organized in a responsive grid layout.
+
+- **Grid System**:
+    - The cards are arranged using Bootstrap's **grid system**, ensuring that they are responsive and adapt to different screen sizes.
+    - All cards have uniform sizes, ensuring a clean and organized appearance on the page.
+
+- **Responsive Design**:
+    - The layout is fully responsive, meaning the site adjusts to different devices, including desktops, tablets, and mobile phones.
+    - Bootstrap’s grid system automatically adjusts the layout to fit different screen sizes.
+
+## Technologies Used
+
+- **HTML**: Used for the structure and content of the website.
+- **CSS**: Custom styling to enhance the layout and appearance.
+- **Bootstrap**: Utilized for the grid system, cards, jumbotron, and other responsive elements.
 
