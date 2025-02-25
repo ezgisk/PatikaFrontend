@@ -1,0 +1,179 @@
+/* Genel Stil */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #1b1e4d;
+    color: #fff;
+    padding:10px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #ddd;
+  }
+  .navbar{
+    background-color: #1b1e4d;
+  }.card-img-top{
+    width: 200px;
+  }
+  /* Son Gönderiler */
+  .latest-posts h2 {
+    color: #333;
+  }
+  /* Son Gönderiler için Flexbox düzeni */
+  .latest-posts {
+    display: flex;
+    justify-content: space-between; /* Öğeler arasındaki boşluğu eşit dağıtır */
+    gap: 20px; /* Öğeler arasında 20px boşluk bırakır */
+  }
+  
+  .latest-posts article {
+    margin-top: 7%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 35%; /* Her bir article öğesinin genişliğini ayarlayın */
+    text-align: center;
+  }
+  
+  .latest-posts img {
+    width: 100%; /* Görselin genişliği article'ın genişliğine uyar */
+    height: auto; /* Görselin oranlarını korur */
+  }
+  .section-title{
+    text-align: center;
+  }
+  
+  .latest-posts article h3 a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .latest-posts article h3 a:hover {
+    color: #007BFF;
+  }
+  
+  .latest-posts article p {
+    color: #666;
+  }
+
+  .posts h2{
+    color: #333;
+  }
+  .posts article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .posts article h3 a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .posts article h3 a:hover {
+    color: #007BFF;
+  }
+  
+  .posts article p {
+    color: #666;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+  }
+  .jumbotron{
+    justify-content: center;
+  }
+/* Sayfa yüksekliğini minimum 100% olarak ayarlıyoruz ve Flexbox kullanıyoruz */
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;  /* Sayfa içeriği büyüdükçe footer alt kısma itilecektir */
+  overflow-y: auto;  /* Yatay scroll yapmak için */
+  margin: 10px;
+}
+
+/* Footer'ı sayfa altına itmek için */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;  /* Footer her zaman alt tarafta olacak */
+}
+
+/* Kartların hizalanması ve boyutları */
+.card {
+  margin-bottom: 20px;  /* Kartlar arasında boşluk bırakıyoruz */
+  height: 450px;  /* Kartların boyutunu sabitliyoruz */
+  overflow: hidden;  /* Kartların içine taşan içerikleri gizliyoruz */
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Kartlar arasındaki boşluk */
+.jumbotron {
+  margin-bottom: 40px;  /* Jumbotron ile içerik arasında boşluk */
+}
+
+/* Main içeriği genişlediğinde scroll yapabilmesi için */
+.main-content {
+  max-height: 80vh;  /* Yüksekliği sınırlıyoruz */
+  overflow-y: scroll;  /* Yalnızca dikey scroll */
+}
+
+/* Ana sayfa düzenlemeleri */
+.navbar {
+  margin-bottom: 20px;  /* Menü ile içerik arasına boşluk */
+}
+
+body {
+ padding-top: 0px; /* Sayfa başına boşluk ekleyelim */
+}
+
